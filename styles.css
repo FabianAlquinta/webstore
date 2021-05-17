@@ -1,0 +1,424 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+*:focus {
+  outline: none;
+}
+
+.clearfix {
+  float: none;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 110px;
+  background: #231f20;
+}
+header .logo {
+  float: left;
+  cursor: pointer;
+  margin-left: 370px;
+  margin-right: 10px;
+}
+header .logo img {
+  height: 100px;
+}
+header .nombre {
+  float: left;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 730px;
+}
+header .nombre h1 {
+  cursor: pointer;
+  font-size: 50px;
+  color: #ffffff;
+}
+header .micuenta, header .carrito {
+  float: left;
+  margin-top: 43px;
+  margin-bottom: 43px;
+  margin-right: 40px;
+}
+header .micuenta h3, header .carrito h3 {
+  color: white;
+  font-weight: normal;
+  transition: all 300ms;
+}
+header .micuenta :hover, header .carrito :hover {
+  color: #2f9ee2;
+  cursor: pointer;
+}
+header .micuenta {
+  margin-right: 40px;
+}
+header .carrito {
+  margin-right: 300px;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: #414042;
+}
+nav .inicio {
+  margin-left: 350px;
+}
+nav .inicio, nav .tienda, nav .nosotros, nav .colecciones, nav .preguntas {
+  display: block;
+  float: left;
+  list-style: none;
+  padding: 14.5px;
+  transition: all 300ms;
+}
+nav .inicio a, nav .tienda a, nav .nosotros a, nav .colecciones a, nav .preguntas a {
+  font-weight: normal;
+  font-size: 18px;
+  color: #ffffff;
+}
+nav > ul > li > ul {
+  display: none;
+  position: absolute;
+  width: 230px;
+  z-index: 1;
+  background: #414042;
+}
+nav > ul > li:hover {
+  background: #575757;
+  cursor: pointer;
+}
+nav > ul > li:hover ul {
+  display: block;
+  margin-top: 14px;
+  margin-left: -15px;
+}
+nav > ul > li:hover ul li {
+  list-style: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  transition: all 300ms;
+}
+nav > ul > li:hover ul li:hover {
+  background: #575757;
+  cursor: pointer;
+}
+nav > ul .boton {
+  float: right;
+  background: #333333;
+  margin-right: 375px;
+  padding: 16px;
+  cursor: pointer;
+}
+nav > ul .boton a {
+  display: block;
+  color: #ffffff;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+nav > ul .boton:hover {
+  background: black;
+}
+nav > ul .input {
+  float: right;
+}
+nav > ul .input input[type=text] {
+  height: 47px;
+  font-size: 16px;
+  padding-left: 12px;
+}
+
+.fondo {
+  width: 100%;
+  background: #ffffff;
+}
+.fondo .primera-imagen {
+  margin: 0 auto;
+  width: 60%;
+}
+.fondo .primera-imagen img {
+  margin-top: 90px;
+  width: 1140px;
+}
+.fondo h2 {
+  display: block;
+  margin: 0 auto;
+  width: 1140px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 40px;
+}
+.fondo .menuofertas {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+}
+.fondo .menuofertas .oferta-tarjetita1, .fondo .menuofertas .oferta-tarjetita2, .fondo .menuofertas .oferta-tarjetita3, .fondo .menuofertas .oferta-tarjetita4 {
+  float: left;
+  width: 24%;
+  padding: 5px;
+  padding-bottom: 50px;
+}
+.fondo .menuofertas .oferta-tarjetita1 img, .fondo .menuofertas .oferta-tarjetita2 img, .fondo .menuofertas .oferta-tarjetita3 img, .fondo .menuofertas .oferta-tarjetita4 img {
+  display: block;
+  width: 98%;
+  margin: 0 auto;
+}
+.fondo .menuofertas .oferta-tarjetita1 h4, .fondo .menuofertas .oferta-tarjetita2 h4, .fondo .menuofertas .oferta-tarjetita3 h4, .fondo .menuofertas .oferta-tarjetita4 h4 {
+  display: block;
+  padding-top: 40px;
+  text-align: center;
+  color: #3A3A3A;
+  font-size: 12.75px;
+  font-weight: lighter;
+}
+.fondo .menuofertas .oferta-tarjetita1 h5, .fondo .menuofertas .oferta-tarjetita2 h5, .fondo .menuofertas .oferta-tarjetita3 h5, .fondo .menuofertas .oferta-tarjetita4 h5 {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+}
+.fondo .menuofertas .oferta-tarjetita1 h6, .fondo .menuofertas .oferta-tarjetita2 h6, .fondo .menuofertas .oferta-tarjetita3 h6, .fondo .menuofertas .oferta-tarjetita4 h6 {
+  display: block;
+  text-align: center;
+  color: #231F20;
+  font-size: 13.5px;
+}
+.fondo .menuofertas {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+}
+.fondo .menuofertas .oferta-tarjetita1, .fondo .menuofertas .oferta-tarjetita2, .fondo .menuofertas .oferta-tarjetita3, .fondo .menuofertas .oferta-tarjetita4 {
+  float: left;
+  width: 24%;
+  padding: 5px;
+  padding-bottom: 50px;
+}
+.fondo .menuofertas .oferta-tarjetita1 img, .fondo .menuofertas .oferta-tarjetita2 img, .fondo .menuofertas .oferta-tarjetita3 img, .fondo .menuofertas .oferta-tarjetita4 img {
+  display: block;
+  width: 98%;
+  margin: 0 auto;
+}
+.fondo .menuofertas .oferta-tarjetita1 h4, .fondo .menuofertas .oferta-tarjetita2 h4, .fondo .menuofertas .oferta-tarjetita3 h4, .fondo .menuofertas .oferta-tarjetita4 h4 {
+  display: block;
+  padding-top: 40px;
+  text-align: center;
+  color: #3A3A3A;
+  font-size: 12.75px;
+  font-weight: lighter;
+}
+.fondo .menuofertas .oferta-tarjetita1 h5, .fondo .menuofertas .oferta-tarjetita2 h5, .fondo .menuofertas .oferta-tarjetita3 h5, .fondo .menuofertas .oferta-tarjetita4 h5 {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+}
+.fondo .menuofertas .oferta-tarjetita1 h6, .fondo .menuofertas .oferta-tarjetita2 h6, .fondo .menuofertas .oferta-tarjetita3 h6, .fondo .menuofertas .oferta-tarjetita4 h6 {
+  display: block;
+  text-align: center;
+  color: #231F20;
+  font-size: 13.5px;
+}
+.fondo .fondo-ultimos {
+  background: #e7ecf2;
+  padding: 20px;
+}
+.fondo .fondo-ultimos .menuofertas {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+}
+.fondo .fondo-ultimos .menuofertas .ultimos-tarjetita1, .fondo .fondo-ultimos .menuofertas .ultimos-tarjetita2, .fondo .fondo-ultimos .menuofertas .ultimos-tarjetita3, .fondo .fondo-ultimos .menuofertas .ultimos-tarjetita4 {
+  float: left;
+  width: 24%;
+  padding: 5px;
+  padding-bottom: 50px;
+}
+.fondo .fondo-ultimos .menuofertas .ultimos-tarjetita1 img, .fondo .fondo-ultimos .menuofertas .ultimos-tarjetita2 img, .fondo .fondo-ultimos .menuofertas .ultimos-tarjetita3 img, .fondo .fondo-ultimos .menuofertas .ultimos-tarjetita4 img {
+  display: block;
+  width: 98%;
+  margin: 0 auto;
+}
+.fondo .fondo-ultimos .menuofertas .ultimos-tarjetita1 h4, .fondo .fondo-ultimos .menuofertas .ultimos-tarjetita2 h4, .fondo .fondo-ultimos .menuofertas .ultimos-tarjetita3 h4, .fondo .fondo-ultimos .menuofertas .ultimos-tarjetita4 h4 {
+  display: block;
+  padding-top: 40px;
+  text-align: center;
+  color: #3A3A3A;
+  font-size: 12.75px;
+  font-weight: lighter;
+}
+.fondo .fondo-ultimos .menuofertas .ultimos-tarjetita1 h5, .fondo .fondo-ultimos .menuofertas .ultimos-tarjetita2 h5, .fondo .fondo-ultimos .menuofertas .ultimos-tarjetita3 h5, .fondo .fondo-ultimos .menuofertas .ultimos-tarjetita4 h5 {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+}
+.fondo .fondo-ultimos .menuofertas .ultimos-tarjetita1 h6, .fondo .fondo-ultimos .menuofertas .ultimos-tarjetita2 h6, .fondo .fondo-ultimos .menuofertas .ultimos-tarjetita3 h6, .fondo .fondo-ultimos .menuofertas .ultimos-tarjetita4 h6 {
+  display: block;
+  text-align: center;
+  color: #231F20;
+  font-size: 13.5px;
+}
+.fondo .fondo-destacados {
+  padding: 20px;
+}
+.fondo .fondo-destacados .menuofertas {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+}
+.fondo .fondo-destacados .menuofertas .destacados-tarjetita1, .fondo .fondo-destacados .menuofertas .destacados-tarjetita2, .fondo .fondo-destacados .menuofertas .destacados-tarjetita3, .fondo .fondo-destacados .menuofertas .destacados-tarjetita4 {
+  float: left;
+  width: 24%;
+  padding: 5px;
+  padding-bottom: 50px;
+}
+.fondo .fondo-destacados .menuofertas .destacados-tarjetita1 img, .fondo .fondo-destacados .menuofertas .destacados-tarjetita2 img, .fondo .fondo-destacados .menuofertas .destacados-tarjetita3 img, .fondo .fondo-destacados .menuofertas .destacados-tarjetita4 img {
+  display: block;
+  width: 98%;
+  margin: 0 auto;
+}
+.fondo .fondo-destacados .menuofertas .destacados-tarjetita1 h4, .fondo .fondo-destacados .menuofertas .destacados-tarjetita2 h4, .fondo .fondo-destacados .menuofertas .destacados-tarjetita3 h4, .fondo .fondo-destacados .menuofertas .destacados-tarjetita4 h4 {
+  display: block;
+  padding-top: 40px;
+  text-align: center;
+  color: #3A3A3A;
+  font-size: 12.75px;
+  font-weight: lighter;
+}
+.fondo .fondo-destacados .menuofertas .destacados-tarjetita1 h5, .fondo .fondo-destacados .menuofertas .destacados-tarjetita2 h5, .fondo .fondo-destacados .menuofertas .destacados-tarjetita3 h5, .fondo .fondo-destacados .menuofertas .destacados-tarjetita4 h5 {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+}
+.fondo .fondo-destacados .menuofertas .destacados-tarjetita1 h6, .fondo .fondo-destacados .menuofertas .destacados-tarjetita2 h6, .fondo .fondo-destacados .menuofertas .destacados-tarjetita3 h6, .fondo .fondo-destacados .menuofertas .destacados-tarjetita4 h6 {
+  display: block;
+  text-align: center;
+  color: #231F20;
+  font-size: 13.5px;
+}
+.fondo .fondo-comprar {
+  background: #f7f7f7;
+  padding: 20px;
+}
+.fondo .fondo-comprar .menuofertas {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+}
+.fondo .fondo-comprar .menuofertas .comprar-tarjetita1, .fondo .fondo-comprar .menuofertas .comprar-tarjetita2, .fondo .fondo-comprar .menuofertas .comprar-tarjetita3, .fondo .fondo-comprar .menuofertas .comprar-tarjetita4 {
+  float: left;
+  width: 23%;
+  padding-bottom: 50px;
+  padding-left: 20px;
+}
+.fondo .fondo-comprar .menuofertas .comprar-tarjetita1 h4, .fondo .fondo-comprar .menuofertas .comprar-tarjetita2 h4, .fondo .fondo-comprar .menuofertas .comprar-tarjetita3 h4, .fondo .fondo-comprar .menuofertas .comprar-tarjetita4 h4 {
+  display: block;
+  position: absolute;
+  font-size: 100px;
+  font-weight: bold;
+  opacity: 0.1;
+}
+.fondo .fondo-comprar .menuofertas .comprar-tarjetita1 h5, .fondo .fondo-comprar .menuofertas .comprar-tarjetita2 h5, .fondo .fondo-comprar .menuofertas .comprar-tarjetita3 h5, .fondo .fondo-comprar .menuofertas .comprar-tarjetita4 h5 {
+  display: block;
+  font-size: 30px;
+  color: #221E1F;
+  padding-top: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 100px;
+}
+.fondo .fondo-comprar .menuofertas .comprar-tarjetita1 p, .fondo .fondo-comprar .menuofertas .comprar-tarjetita2 p, .fondo .fondo-comprar .menuofertas .comprar-tarjetita3 p, .fondo .fondo-comprar .menuofertas .comprar-tarjetita4 p {
+  padding-bottom: 20px;
+  font-size: 15px;
+  color: #3A3A3A;
+  line-height: 25px;
+}
+.fondo .footer1 {
+  display: block;
+  height: 140px;
+  background: #231f20;
+  border-bottom: 1px solid #e7ecf2;
+}
+.fondo .footer1 .footer1-logo img {
+  display: block;
+  height: 100px;
+  float: left;
+  margin-left: 380px;
+  margin-right: 280px;
+  margin-top: 20px;
+}
+.fondo .footer1 .centro {
+  display: block;
+}
+.fondo .footer1 .centro .footer1-inicio, .fondo .footer1 .centro .footer1-nosotros, .fondo .footer1 .centro .footer1-tienda, .fondo .footer1 .centro .footer1-preguntas {
+  display: block;
+  float: left;
+  padding: 20px 10px 20px 10px;
+  margin-top: 40px;
+}
+.fondo .footer1 .centro .footer1-inicio a, .fondo .footer1 .centro .footer1-nosotros a, .fondo .footer1 .centro .footer1-tienda a, .fondo .footer1 .centro .footer1-preguntas a {
+  color: #e7ecf2;
+  font-size: 14px;
+}
+.fondo .footer1 .pelotitas {
+  display: block;
+  float: left;
+  padding-left: 200px;
+}
+.fondo .footer1 .pelotitas .footer1-face, .fondo .footer1 .pelotitas .footer1-instagram, .fondo .footer1 .pelotitas .footer1-wasap {
+  display: block;
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  margin-top: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  background: #9ed8ff;
+  border: 1px solid;
+  border-radius: 25px;
+}
+.fondo .footer1 .pelotitas .footer1-face a, .fondo .footer1 .pelotitas .footer1-instagram a, .fondo .footer1 .pelotitas .footer1-wasap a {
+  color: #231f20;
+}
+.fondo .footer2 {
+  height: 105px;
+  background: #414042;
+}
+.fondo .footer2 .footer2-texto {
+  display: block;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #909091;
+}
+
+/*# sourceMappingURL=styles.css.map */
