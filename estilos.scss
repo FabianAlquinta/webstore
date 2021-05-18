@@ -24,35 +24,35 @@ body{
 //HEADER
 header{
     width: 100%;
+    min-width: 1200px;
     height: 11rem;
     background: #231f20;
     .logo{
         float: left;
         cursor: pointer;
-        margin-left: 40rem;
         margin-right: 1rem;
         img{
+            display: block;
             height: 10rem;
         }
     }
 
     .nombre{
         float: left;
-        margin-top: 25px;
-        margin-bottom: 25px;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
         h1{
             cursor: pointer;
-            font-size: 50px;
+            font-size: 5rem;
             color: #ffffff;
         }
     }
 
     .cajitaheader{
         float: right;
-        margin-right: 35rem;
         .micuenta, .carrito{
             float: right;
-            padding-top: 43px;
+            padding-top: 4.3rem;
             padding-right:3rem ;
             h3{
                 display: block;
@@ -73,8 +73,8 @@ header{
 
 //INICIO DE NAV
 nav{
-    width: 100%;
-    height: 50px;
+    display: block;
+    height: 5.0rem;
     background-color: #414042;
 
     .inicio{
@@ -109,17 +109,16 @@ nav{
             background: #575757;
             cursor: pointer;
 
-
             ul{
                 display: block;
-                margin-top: 14px;
+                margin-top: 1.4rem;
                 margin-left: -1.5rem;
 
                 li{
                     list-style:none;
-                    padding-top: 15px;
-                    padding-bottom: 15px;
-                    padding-left:20px ;
+                    padding-top: 1.5rem;
+                    padding-bottom: 1.5rem;
+                    padding-left:2rem ;
                     transition: all 300ms;
                 }
 
@@ -157,7 +156,7 @@ nav{
         .input {
             float: right;
             input[type="text"]{
-            height: 47px;
+            height: 4.7rem;
             font-size: 1.6rem;
             padding-left: 1.2rem;
             }
@@ -168,14 +167,14 @@ nav{
 //inicio de FONDO
 .fondo{
     display: block;
-    width: 100%;
+    margin: 0 auto;
     background: #ffffff;
 
     .primera-imagen{
-        margin: 0 auto;
-        width: 60%;
         img{
-            margin-top: 90px;
+            display: block;
+            margin: 0 auto;
+            padding-top: 9.0rem;
             width: 114rem;
         }
     }
@@ -192,42 +191,44 @@ nav{
     .box{
         float: left;
         width: 24%;
-        padding: 5px;
+        padding: 0.5rem;
         padding-bottom: 50px;
         img{
             display: block;
-            width: 98%;
             margin: 0 auto;
+            width: 98%;
+            
         }
         h4{
             display: block;
-            padding-top: 40px;
+            padding-top: 4rem;
             text-align: center;
             color: #3A3A3A;
-            font-size: 12.75px;
+            font-size: 1.275rem;
             font-weight: lighter;
         }
         h5{
             display: block;
             text-align: center;
-            font-size: 18px;
-            padding-top: 12px;
-            padding-left: 5px;
-            padding-right:5px;
+            font-size: 1.8rem;
+            padding-top: 1.2px;
+            padding-left: 0.5rem;
+            padding-right:0.5rem;
             padding-bottom: 10px;
         }
         h6{
             display: block;
             text-align: center;
             color: #231F20;
-            font-size: 13.5px;
+            font-size: 1.35rem;
         }
     }
 
-    .menuofertas{
+    .box-container{
         display: block;
         margin: 0 auto;
-        width: 60%;
+        width: 115rem;
+
     }//FIN DE ESTILOS GENERALES
    
     .fondo-ultimos{
@@ -243,7 +244,7 @@ nav{
         background: #f7f7f7;
         padding: 20px;
         
-        .menuofertas{
+        .box-container{
             .comprar-tarjetita1,.comprar-tarjetita2,.comprar-tarjetita3,.comprar-tarjetita4{
                 h4{
                     display: block;
