@@ -162,23 +162,18 @@ nav > ul .input input[type=text] {
   padding-bottom: 50px;
   font-size: 4rem;
 }
-.fondo .menuofertas {
-  display: block;
-  margin: 0 auto;
-  width: 60%;
-}
-.fondo .menuofertas .oferta-tarjetita1, .fondo .menuofertas .oferta-tarjetita2, .fondo .menuofertas .oferta-tarjetita3, .fondo .menuofertas .oferta-tarjetita4 {
+.fondo .box {
   float: left;
   width: 24%;
   padding: 5px;
   padding-bottom: 50px;
 }
-.fondo .menuofertas .oferta-tarjetita1 img, .fondo .menuofertas .oferta-tarjetita2 img, .fondo .menuofertas .oferta-tarjetita3 img, .fondo .menuofertas .oferta-tarjetita4 img {
+.fondo .box img {
   display: block;
   width: 98%;
   margin: 0 auto;
 }
-.fondo .menuofertas .oferta-tarjetita1 h4, .fondo .menuofertas .oferta-tarjetita2 h4, .fondo .menuofertas .oferta-tarjetita3 h4, .fondo .menuofertas .oferta-tarjetita4 h4 {
+.fondo .box h4 {
   display: block;
   padding-top: 40px;
   text-align: center;
@@ -186,7 +181,7 @@ nav > ul .input input[type=text] {
   font-size: 12.75px;
   font-weight: lighter;
 }
-.fondo .menuofertas .oferta-tarjetita1 h5, .fondo .menuofertas .oferta-tarjetita2 h5, .fondo .menuofertas .oferta-tarjetita3 h5, .fondo .menuofertas .oferta-tarjetita4 h5 {
+.fondo .box h5 {
   display: block;
   text-align: center;
   font-size: 18px;
@@ -195,7 +190,7 @@ nav > ul .input input[type=text] {
   padding-right: 5px;
   padding-bottom: 10px;
 }
-.fondo .menuofertas .oferta-tarjetita1 h6, .fondo .menuofertas .oferta-tarjetita2 h6, .fondo .menuofertas .oferta-tarjetita3 h6, .fondo .menuofertas .oferta-tarjetita4 h6 {
+.fondo .box h6 {
   display: block;
   text-align: center;
   color: #231F20;
@@ -205,140 +200,17 @@ nav > ul .input input[type=text] {
   display: block;
   margin: 0 auto;
   width: 60%;
-}
-.fondo .menuofertas .oferta-tarjetita1, .fondo .menuofertas .oferta-tarjetita2, .fondo .menuofertas .oferta-tarjetita3, .fondo .menuofertas .oferta-tarjetita4 {
-  float: left;
-  width: 24%;
-  padding: 5px;
-  padding-bottom: 50px;
-}
-.fondo .menuofertas .oferta-tarjetita1 img, .fondo .menuofertas .oferta-tarjetita2 img, .fondo .menuofertas .oferta-tarjetita3 img, .fondo .menuofertas .oferta-tarjetita4 img {
-  display: block;
-  width: 98%;
-  margin: 0 auto;
-}
-.fondo .menuofertas .oferta-tarjetita1 h4, .fondo .menuofertas .oferta-tarjetita2 h4, .fondo .menuofertas .oferta-tarjetita3 h4, .fondo .menuofertas .oferta-tarjetita4 h4 {
-  display: block;
-  padding-top: 40px;
-  text-align: center;
-  color: #3A3A3A;
-  font-size: 12.75px;
-  font-weight: lighter;
-}
-.fondo .menuofertas .oferta-tarjetita1 h5, .fondo .menuofertas .oferta-tarjetita2 h5, .fondo .menuofertas .oferta-tarjetita3 h5, .fondo .menuofertas .oferta-tarjetita4 h5 {
-  display: block;
-  text-align: center;
-  font-size: 18px;
-  padding-top: 12px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-bottom: 10px;
-}
-.fondo .menuofertas .oferta-tarjetita1 h6, .fondo .menuofertas .oferta-tarjetita2 h6, .fondo .menuofertas .oferta-tarjetita3 h6, .fondo .menuofertas .oferta-tarjetita4 h6 {
-  display: block;
-  text-align: center;
-  color: #231F20;
-  font-size: 13.5px;
 }
 .fondo .fondo-ultimos {
   background: #e7ecf2;
   padding: 20px;
 }
-.fondo .fondo-ultimos .menuofertas {
-  display: block;
-  margin: 0 auto;
-  width: 60%;
-}
-.fondo .fondo-ultimos .menuofertas .ultimos-tarjetita1, .fondo .fondo-ultimos .menuofertas .ultimos-tarjetita2, .fondo .fondo-ultimos .menuofertas .ultimos-tarjetita3, .fondo .fondo-ultimos .menuofertas .ultimos-tarjetita4 {
-  float: left;
-  width: 24%;
-  padding: 5px;
-  padding-bottom: 50px;
-}
-.fondo .fondo-ultimos .menuofertas .ultimos-tarjetita1 img, .fondo .fondo-ultimos .menuofertas .ultimos-tarjetita2 img, .fondo .fondo-ultimos .menuofertas .ultimos-tarjetita3 img, .fondo .fondo-ultimos .menuofertas .ultimos-tarjetita4 img {
-  display: block;
-  width: 98%;
-  margin: 0 auto;
-}
-.fondo .fondo-ultimos .menuofertas .ultimos-tarjetita1 h4, .fondo .fondo-ultimos .menuofertas .ultimos-tarjetita2 h4, .fondo .fondo-ultimos .menuofertas .ultimos-tarjetita3 h4, .fondo .fondo-ultimos .menuofertas .ultimos-tarjetita4 h4 {
-  display: block;
-  padding-top: 40px;
-  text-align: center;
-  color: #3A3A3A;
-  font-size: 12.75px;
-  font-weight: lighter;
-}
-.fondo .fondo-ultimos .menuofertas .ultimos-tarjetita1 h5, .fondo .fondo-ultimos .menuofertas .ultimos-tarjetita2 h5, .fondo .fondo-ultimos .menuofertas .ultimos-tarjetita3 h5, .fondo .fondo-ultimos .menuofertas .ultimos-tarjetita4 h5 {
-  display: block;
-  text-align: center;
-  font-size: 18px;
-  padding-top: 12px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-bottom: 10px;
-}
-.fondo .fondo-ultimos .menuofertas .ultimos-tarjetita1 h6, .fondo .fondo-ultimos .menuofertas .ultimos-tarjetita2 h6, .fondo .fondo-ultimos .menuofertas .ultimos-tarjetita3 h6, .fondo .fondo-ultimos .menuofertas .ultimos-tarjetita4 h6 {
-  display: block;
-  text-align: center;
-  color: #231F20;
-  font-size: 13.5px;
-}
 .fondo .fondo-destacados {
   padding: 20px;
-}
-.fondo .fondo-destacados .menuofertas {
-  display: block;
-  margin: 0 auto;
-  width: 60%;
-}
-.fondo .fondo-destacados .menuofertas .destacados-tarjetita1, .fondo .fondo-destacados .menuofertas .destacados-tarjetita2, .fondo .fondo-destacados .menuofertas .destacados-tarjetita3, .fondo .fondo-destacados .menuofertas .destacados-tarjetita4 {
-  float: left;
-  width: 24%;
-  padding: 5px;
-  padding-bottom: 50px;
-}
-.fondo .fondo-destacados .menuofertas .destacados-tarjetita1 img, .fondo .fondo-destacados .menuofertas .destacados-tarjetita2 img, .fondo .fondo-destacados .menuofertas .destacados-tarjetita3 img, .fondo .fondo-destacados .menuofertas .destacados-tarjetita4 img {
-  display: block;
-  width: 98%;
-  margin: 0 auto;
-}
-.fondo .fondo-destacados .menuofertas .destacados-tarjetita1 h4, .fondo .fondo-destacados .menuofertas .destacados-tarjetita2 h4, .fondo .fondo-destacados .menuofertas .destacados-tarjetita3 h4, .fondo .fondo-destacados .menuofertas .destacados-tarjetita4 h4 {
-  display: block;
-  padding-top: 40px;
-  text-align: center;
-  color: #3A3A3A;
-  font-size: 12.75px;
-  font-weight: lighter;
-}
-.fondo .fondo-destacados .menuofertas .destacados-tarjetita1 h5, .fondo .fondo-destacados .menuofertas .destacados-tarjetita2 h5, .fondo .fondo-destacados .menuofertas .destacados-tarjetita3 h5, .fondo .fondo-destacados .menuofertas .destacados-tarjetita4 h5 {
-  display: block;
-  text-align: center;
-  font-size: 18px;
-  padding-top: 12px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-bottom: 10px;
-}
-.fondo .fondo-destacados .menuofertas .destacados-tarjetita1 h6, .fondo .fondo-destacados .menuofertas .destacados-tarjetita2 h6, .fondo .fondo-destacados .menuofertas .destacados-tarjetita3 h6, .fondo .fondo-destacados .menuofertas .destacados-tarjetita4 h6 {
-  display: block;
-  text-align: center;
-  color: #231F20;
-  font-size: 13.5px;
 }
 .fondo .fondo-comprar {
   background: #f7f7f7;
   padding: 20px;
-}
-.fondo .fondo-comprar .menuofertas {
-  display: block;
-  margin: 0 auto;
-  width: 60%;
-}
-.fondo .fondo-comprar .menuofertas .comprar-tarjetita1, .fondo .fondo-comprar .menuofertas .comprar-tarjetita2, .fondo .fondo-comprar .menuofertas .comprar-tarjetita3, .fondo .fondo-comprar .menuofertas .comprar-tarjetita4 {
-  float: left;
-  width: 23%;
-  padding-bottom: 50px;
-  padding-left: 20px;
 }
 .fondo .fondo-comprar .menuofertas .comprar-tarjetita1 h4, .fondo .fondo-comprar .menuofertas .comprar-tarjetita2 h4, .fondo .fondo-comprar .menuofertas .comprar-tarjetita3 h4, .fondo .fondo-comprar .menuofertas .comprar-tarjetita4 h4 {
   display: block;
