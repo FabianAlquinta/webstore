@@ -25,8 +25,9 @@ body {
 }
 
 .header {
-  display: block;
+  margin: 0 auto;
   width: 100%;
+  min-width: 120rem;
   height: 11rem;
   background: #231f20;
 }
@@ -77,6 +78,8 @@ body {
 
 nav {
   display: block;
+  width: 100%;
+  min-width: 120rem;
   height: 5rem;
   background-color: #414042;
 }
@@ -150,9 +153,9 @@ nav > ul .input input[type=text] {
 }
 
 .fondo {
-  display: block;
-  margin: 0 auto;
   background: #ffffff;
+  width: 100%;
+  min-width: 120rem;
 }
 .fondo .primera-imagen img {
   display: block;
@@ -208,15 +211,24 @@ nav > ul .input input[type=text] {
   width: 115rem;
 }
 .fondo .fondo-ultimos {
+  width: 100%;
+  min-width: 120rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background: #e7ecf2;
-  padding: 20px;
 }
 .fondo .fondo-destacados {
-  padding: 20px;
+  width: 100%;
+  min-width: 120rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .fondo .fondo-comprar {
+  width: 100%;
+  min-width: 120rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background: #f7f7f7;
-  padding: 20px;
 }
 .fondo .fondo-comprar .box-container .comprar-tarjetita1 h4, .fondo .fondo-comprar .box-container .comprar-tarjetita2 h4, .fondo .fondo-comprar .box-container .comprar-tarjetita3 h4, .fondo .fondo-comprar .box-container .comprar-tarjetita4 h4 {
   display: block;
@@ -243,7 +255,8 @@ nav > ul .input input[type=text] {
   line-height: 25px;
 }
 .fondo .footer1 {
-  display: block;
+  width: 100%;
+  min-width: 120rem;
   height: 140px;
   background: #231f20;
   border-bottom: 1px solid #e7ecf2;
@@ -297,6 +310,8 @@ nav > ul .input input[type=text] {
   color: #231f20;
 }
 .fondo .footer2 {
+  width: 100%;
+  min-width: 120rem;
   height: 105px;
   background: #414042;
 }

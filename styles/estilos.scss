@@ -23,8 +23,9 @@ body{
 
 //HEADER
 .header{
-    display: block;
+    margin: 0 auto;
     width: 100%;
+    min-width: 120rem;
     height: 11rem;
     background: #231f20;
 
@@ -83,7 +84,9 @@ body{
 //INICIO DE NAV
 nav{
     display: block;
-    height: 5.0rem;
+    width: 100%;
+    min-width: 120rem;
+    height: 5rem;
     background-color: #414042;
     .nav-container{
         display: block;
@@ -174,10 +177,9 @@ nav{
 
 //inicio de FONDO
 .fondo{
-    display: block;
-    margin: 0 auto;
     background: #ffffff;
-
+    width: 100%;
+    min-width: 120rem;
     .primera-imagen{
         img{
             display: block;
@@ -240,18 +242,26 @@ nav{
     }//FIN DE ESTILOS GENERALES
    
     .fondo-ultimos{
+        width: 100%;
+        min-width: 120rem;
+        padding-top: 20px;
+        padding-bottom: 20px;
         background: #e7ecf2;
-        padding: 20px;
     }
 
     .fondo-destacados{
-        padding: 20px;
+        width: 100%;
+        min-width: 120rem;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     //Inicio menu de compras
     .fondo-comprar{
+        width: 100%;
+        min-width: 120rem;
+        padding-top: 20px;
+        padding-bottom: 20px;
         background: #f7f7f7;
-        padding: 20px;
-        
         .box-container{
             .comprar-tarjetita1,.comprar-tarjetita2,.comprar-tarjetita3,.comprar-tarjetita4{
                 h4{
@@ -286,7 +296,8 @@ nav{
 
     //inicio FOOTER1
     .footer1{
-        display: block;
+        width: 100%;
+        min-width: 120rem;
         height: 140px;
         background: #231f20;
         border-bottom: 1px solid #e7ecf2;
@@ -351,6 +362,8 @@ nav{
 
     //inicio FOOTER2
     .footer2{
+        width: 100%;
+        min-width: 120rem;
         height: 105px;
         background: #414042;
         .footer2-texto{
