@@ -31,7 +31,7 @@ body{
     .header-container{
         margin: 0 auto;
         width: fit-content;
-        width: 100rem;
+        width: 120rem;
         .logo{
             float: left;
             cursor: pointer;
@@ -89,7 +89,7 @@ nav{
         display: block;
         margin: 0 auto;
         width: fit-content;
-        width: 100rem;
+        width: 120rem;
 
     }
 
@@ -160,6 +160,7 @@ nav{
             background: black;
         }
         
+
         .input {
             float: right;
             input[type="text"]{
@@ -256,6 +257,7 @@ nav{
                 h4{
                     display: block;
                     position: absolute;
+                    padding-top: 0px;
                     font-size: 100px;
                     font-weight: bold;
                     opacity: 0.1;
@@ -263,9 +265,10 @@ nav{
     
                 h5{
                     display: block;
+                    text-align: left;
                     font-size: 30px;
                     color: #221E1F;
-                    padding-top: 12px;
+                    padding-top: 30px;
                     padding-left: 5px;
                     padding-right:5px;
                     padding-bottom: 100px;
@@ -288,63 +291,68 @@ nav{
         background: #231f20;
         border-bottom: 1px solid #e7ecf2;
 
-        .footer1-logo img{
+        .footer1-container{
             display: block;
-            height: 100px;
-            float: left;
-            margin-left: 380px;
-            margin-right:280px;
-            margin-top: 20px;
-        }
+            margin: 0 auto;
+            width: fit-content;
+            width: 120rem;
 
-        .centro{
-            display: block;
-
-            .footer1-inicio,.footer1-nosotros,.footer1-tienda,.footer1-preguntas{
+            .footer1-logo img{
                 display: block;
+                height: 100px;
                 float: left;
-                //arriba derecha abajo izquierda
-                padding: 20px 10px 20px 10px;
-                margin-top: 40px;
-                
-                a{
-                    color: #e7ecf2;
-                    font-size: 14px;
+                margin-top: 20px;
+                padding-right: 20rem;
+            }
+    
+            .centro{
+                display: block;
+    
+                .footer1-inicio,.footer1-nosotros,.footer1-tienda,.footer1-preguntas{
+                    display: block;
+                    float: left;
+                    //arriba derecha abajo izquierda
+                    padding: 20px 10px 20px 10px;
+                    margin-top: 40px;
+                    
+                    a{
+                        color: #e7ecf2;
+                        font-size: 14px;
+                    }
+                }
+            }
+    
+            .pelotitas{
+                display: block;
+                float: right;
+                width: fit-content;
+                margin: 30px;
+                .footer1-face,.footer1-instagram,.footer1-wasap{
+                    display: block;
+                    float: left;
+                    margin: 10px;
+                    width: 40px;
+                    height: 40px;
+                    text-align: center;
+                    font-weight: bold;
+                    font-size: 40px;
+                    border: 1px solid;
+                    border-radius: 25px;
+                    background: #9ed8ff;
+                    a{
+                        color: #231f20;
+                    }
                 }
             }
         }
 
-        .pelotitas{
-            display: block;
-            float: left;
-            padding-left: 200px;
-
-            .footer1-face,.footer1-instagram,.footer1-wasap{
-                display: block;
-                float: left;
-                width: 40px;
-                height: 40px;
-                margin-right: 20px;
-                margin-top: 50px;
-                text-align: center;
-                font-weight: bold;
-                font-size: 40px;
-                background: #9ed8ff;
-                border: 1px solid;
-                border-radius: 25px;
-
-                a{
-                    color: #231f20;
-                }
-            }
-        }
+        
     }//final FOOTER1
 
     //inicio FOOTER2
     .footer2{
         height: 105px;
         background: #414042;
-
         .footer2-texto{
             display: block;
             text-align: center;
