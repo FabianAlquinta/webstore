@@ -131,7 +131,7 @@ nav > ul > li:hover ul li:hover {
 nav > ul .boton {
   float: right;
   background: #333333;
-  padding: 1.6rem;
+  padding: 1.9rem;
   cursor: pointer;
 }
 nav > ul .boton a {
@@ -147,7 +147,7 @@ nav > ul .input {
   float: right;
 }
 nav > ul .input input[type=text] {
-  height: 4.7rem;
+  height: 4.6rem;
   font-size: 1.6rem;
   padding-left: 1.2rem;
 }
